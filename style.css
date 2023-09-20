@@ -4,6 +4,13 @@ body, h1, h2, p, ul, li {
     padding: 0;
 }
 
+q{
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
 /* Set a background image that gives a comic book feel */
 body {
     background-image: url('comic-background.jpg');
@@ -63,6 +70,7 @@ h2 {
 .comic {
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .comic img {
