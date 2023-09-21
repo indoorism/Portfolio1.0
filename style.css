@@ -1,7 +1,20 @@
 /* Reset some default styles */
-body, h1, h2, p, ul, li {
+body, h1, h2, ul, li {
     margin: 0;
     padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 q{
@@ -74,37 +87,48 @@ h2 {
 }
 
 .comic img {
-    max-width: 25%;
+    max-width: 45%;
 
 }
 
 .comic2 {
    /*text-align: center;*/
     margin-bottom: 30px;
-    color: transparent;
+    /*color: transparent;*/
 }
 
 .comic2 img {
-    max-width: 25%;
+    max-width: 45%;
     
 }
 
 .comic3 {
-    text-align: right;
+    text-align: center;
     margin-bottom: 30px;
 }
 
 .comic3 img {
-    max-width: 25%;
+    max-width: 45%;
 }
 
 .comic4 {
-    text-align: center;
+    text-align-last: right;
     margin-bottom: 30px;
 }
 
 .comic4 img {
     max-width: 25%;
+}
+
+.comic5 {
+    margin-bottom: 25px;
+
+}
+
+.comic5 img{
+    max-width: 25%;
+    float: left;
+
 }
 
 /* Style the footer */
@@ -117,3 +141,13 @@ footer {
     width: 100%;
     color: #fff;
 }
+
+.contact{
+
+}
+
+.contact img{
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    max-width: 35%;
+    padding-left: 30%;}
